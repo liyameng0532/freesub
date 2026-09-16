@@ -6,23 +6,19 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.5.245",
+      "server": "104.20.30.10",
       "server_port": 443,
-      "uuid": "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90",
+      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
       "tls": {
         "enabled": true,
-        "server_name": "4-M13-sTatic-csS.Xcv.cCWU.CC",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "us9.69lover.my",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "path": "/api/v2/63e9687fa53e441c/stream",
         "headers": {
-          "Host": "4-M13-sTatic-csS.Xcv.cCWU.CC"
+          "Host": "us9.69lover.my"
         }
       }
     },
