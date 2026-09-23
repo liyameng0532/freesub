@@ -5,27 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "172.66.44.124",
-      "server_port": 8443,
-      "uuid": "b2f2f9f2-1864-48ea-839b-22815faff1f1",
+      "tag": "🇦🇹 奥地利 (Austria) 01 - xiaohe",
+      "server": "195.74.90.115",
+      "server_port": 9443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
       "tls": {
         "enabled": true,
-        "server_name": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev",
+        "server_name": "hub-vie-01.hanvpn.cc",
         "insecure": false,
         "alpn": [
-          "http/1.1"
+          "h2"
         ],
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev"
-        }
+        "type": "grpc",
+        "service_name": "vie01-grpc-8e47a"
       }
     },
     {
@@ -33,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
