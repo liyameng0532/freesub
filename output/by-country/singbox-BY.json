@@ -4,18 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "022xw1dmczg0c6165pcla6.tomborn69.workers.dev",
-      "server_port": 443,
-      "password": "pjg&JybcgFsca,+gQMa",
+      "type": "vless",
+      "tag": "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe",
+      "server": "89.125.96.75",
+      "server_port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
       "tls": {
         "enabled": true,
-        "server_name": "022xW1dMCzG0c6165PCla6.TOMBorn69.woRKERS.dev",
+        "server_name": "wss.zazazuza.ru",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/tr/9Krhh8DnN4WBkbQFAyN09f7V7ivKQ?ed=2560",
+        "path": "/vpn-wss/fluxor/59011/",
         "headers": {
-          "Host": "022xw1dmczg0c6165pcla6.tomborn69.workers.dev"
+          "Host": "wss.zazazuza.ru"
         }
       }
     },
@@ -34,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
