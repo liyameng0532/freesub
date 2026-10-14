@@ -6,22 +6,9 @@
     {
       "type": "vless",
       "tag": "🇮🇷 IR 01 - xiaohe",
-      "server": "79.175.136.238",
-      "server_port": 7879,
-      "uuid": "bd5ea9bc-16ec-408e-b933-4219ed022de1",
-      "tls": {
-        "enabled": true,
-        "server_name": "account.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0PVs0FZprxXi0bV-YX-SkyAx6a_9GHjSZ6hpCpa1lnE",
-          "short_id": "63ca289314edc51b"
-        }
-      }
+      "server": "ir.panel.privatevip.ir",
+      "server_port": 448,
+      "uuid": "72f8cb98-ce2b-4697-93b7-c9766051f321"
     },
     {
       "type": "selector",
